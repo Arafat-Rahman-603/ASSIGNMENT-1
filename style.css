@@ -3,6 +3,24 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+button{
+  cursor: pointer;
+}
+nav a:hover{
+  color: #30b868;
+  transition: all 0.2s ease-in-out;
+}
+button:hover{
+  scale: 1.1;
+  transition: all 0.3s ease-in-out;
+}
+button:active{
+  scale: 0.9;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
 body {
   box-sizing: border-box;
 }
@@ -23,6 +41,8 @@ nav img {
 nav ul {
   display: flex;
   gap: 32px;
+  font-size: 16px;
+  font-weight: 500;
   list-style: none;
 }
 nav button {
@@ -33,6 +53,7 @@ nav button {
   font-weight: 600;
   color: white;
 }
+
 #section1-div1 {
  display: flex;
  justify-content: center;
@@ -97,6 +118,7 @@ nav button {
   border-radius: 4px;
   font-weight: 600;
   color: white;
+  outline: 0;
   font-size: 16px;
 }
 .section1-btn-div{
@@ -213,6 +235,7 @@ header{
 }
 .section3-details h1{
   font-size: 48px;
+  max-width: 500px;
   font-weight: 700;
 }
 .section3-details p{
@@ -292,7 +315,7 @@ header{
   color: #627382;
 }
 footer{
-  margin-top: 60px;
+  margin-top: 80px;
   background-color: #001931;
   padding: 30px 120px;
 }
@@ -319,12 +342,20 @@ footer{
   color: #FAFAFA;
   font-size: 16px;
 }
-.SocialLinks-icons i{
+.SocialLinks-icons a{
+  text-decoration: none;
   font-size: 20px;
+  color: #FFFFFF;
 }
-
-
-
+footer a:hover{
+  color: #30b868;
+}
+footer a{
+  cursor: pointer;
+}
+footer a:active{
+  opacity: 0.3;
+}
 
 @media (max-width: 1185px) {
   #section3{
