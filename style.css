@@ -70,6 +70,9 @@ nav button {
   border:0;
   border-radius: 20px;
 }
+#section1-button1 p{
+  color: #30b868;
+}
 #section1-button2{
   display: flex;
   justify-content: center;
